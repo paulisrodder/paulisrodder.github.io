@@ -1,0 +1,22 @@
+# Setup
+title:               Paulis Rødder
+tagline:             'Støtter Boldklubben FREM'
+description:         'Velkommen til Paulis Rødder. Her kan du finde information om Paulis Rødder, Boldklubben FREM og meget mere.'
+url:                 http://paulisrodder.github.io
+baseurl:             ''
+paginate:            5
+permalink:           pretty
+
+# About/contact
+author:
+  name:              Paulis Rødder
+  #url:               https://twitter.com/mdo
+  #email:             markdotto@gmail.com
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Custom vars
+version:             0.0.2
+google_analytics_id: #UA-XXXX-Y
