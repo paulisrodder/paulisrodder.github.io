@@ -3,7 +3,7 @@ title:               Paulis Rødder
 tagline:             'Støtter Boldklubben FREM'
 description:         'Velkommen til Paulis Rødder. Her kan du finde information om Paulis Rødder, Boldklubben FREM og meget mere.'
 url:                 http://paulisrodder.github.io
-baseurl:             'http://username.github.io/'
+baseurl:             'http://paulisrodder.github.io/'
 paginate:            5
 permalink:           pretty
 
