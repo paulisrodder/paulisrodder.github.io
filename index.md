@@ -1,5 +1,4 @@
 ---
-layout: default
-title: Home
+layout: home
 ---
-![Welcome Image](public\rodderne.jpg)
+<img src="assets/images/rodderne.jpg" alt="Rødderne" class="home-hero-img">

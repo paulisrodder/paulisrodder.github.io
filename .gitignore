@@ -1,0 +1,22 @@
+# Jekyll build output
+_site/
+
+# VSCode and system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Tool-specific
+.qodo/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Ruby bundler
+.bundle/
+Gemfile.lock
+
+# Ignore node_modules if used in the future
+node_modules/
