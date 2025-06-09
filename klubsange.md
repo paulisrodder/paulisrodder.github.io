@@ -2,7 +2,6 @@
 layout: page
 title: Klubsange
 ---
-## Klubsange
 
 <details>
     <summary><strong>Hey Ho – Vi er BK Frem</strong></summary>
