@@ -33,8 +33,11 @@
     margin-top: (-2 * $site-logo-height) / 2;
   }
 
-  img {
-    width: 100%;
+    img {
+    width: 100vw;
+    height: 90vh;
+    object-fit: cover;
+    object-position: center;
   }
 }
 
