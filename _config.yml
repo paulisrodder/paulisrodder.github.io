@@ -20,7 +20,7 @@ locale: en-US
 title: "Paulis Rødder"
 description: "Vi har ingen kaptajn"
 baseurl: # the subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: "https://paulisrodder.github.io/" # the base hostname & protocol for your site
 logo: # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
@@ -108,3 +108,14 @@ footer_links:
   - title: Facebook
     url: https://www.facebook.com/Paulisrodder
     icon: fab fa-facebook
+
+collections:
+  klubsange:
+    output: true
+    permalink: /klubsange/:name/
+  spillersange_nuvaerende:
+    output: true
+    permalink: /spillersange/nuvaerende/:name/
+  spillersange_tidligere:
+    output: true
+    permalink: /spillersange/tidligere/:name/
