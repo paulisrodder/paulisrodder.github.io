@@ -1,31 +1,24 @@
 ---
-layout: default
+layout: page
 title: Klubsange
 permalink: /klubsange/
 ---
 
-## Klubsange
+<div class="songs-list">
+  {% for song in site.songs %}
+    <div class="song-card" tabindex="0" onclick="toggleLyrics(this)" onkeypress="if(event.key==='Enter'){toggleLyrics(this)}">
+      <span class="song-icon">🎶</span>
+      <h2>{{ song.title }} <span class="expand-arrow">▶</span></h2>
+      <p>{{ song.excerpt }}</p>
+      <div class="song-lyrics">
+        {{ song.content | markdownify }}
+      </div>
+    </div>
+  {% endfor %}
+</div>
 
-Her finder du teksterne til vores mest elskede klubsange. Syng med af fuld hals!
-
-### Sang 1: FREM over alt!
-
-(Melodi: "Vi er røde, vi er hvide" - eller find på en anden)
-
-Frem, Frem, Frem, vi elsker jer!
-Sort og blå, til døden vi er her.
-Vores hjerter slår for FREM,
-Intet andet hold er ligesom dem!
-
-### Sang 2: Valby Stadion, Vores Hjem
-
-(Melodi: fri)
-
-På Valby Stadion, hvor sjælen den bor,
-Der synger vi højt, hvor FREM vi tror.
-Med Paulis Rødder i ryggen vi står,
-For fremtiden og sejren, vi er klar!
-
----
-
-*Flere sange vil blive tilføjet løbende.*
+<script>
+function toggleLyrics(card) {
+  card.classList.toggle('expanded');
+}
+</script>

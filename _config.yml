@@ -6,3 +6,8 @@ url: "https://paulisrodder.github.io"
 # Build settings
 markdown: kramdown
 theme: minima
+
+collections:
+  songs:
+    output: true
+    permalink: /songs/:name/

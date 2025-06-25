@@ -74,7 +74,7 @@ body.home .site-header nav a {
 .hero, .hero-section {
   position: relative;
   width: 100%;
-  min-height: calc(100vh - 60px);
+  min-height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -127,5 +127,103 @@ body {
 }
 
 main {
-  margin-top: 80px; /* To prevent content from being hidden under fixed header */
+  margin: 100px auto 0 auto; /* To prevent content from being hidden under fixed header and center horizontally */
+  max-width: 1200px;
+  padding: 0 40px;;
+}
+
+/* === Section Content Classes (moved from inline styles) === */
+.section-flex-container {
+  max-width: 900px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+}
+.section-col-1 {
+  flex: 1 1 300px;
+}
+.section-col-2 {
+  flex: 2 1 400px;
+  align-self: center;
+}
+.section-hr {
+  width: 60px;
+  border: 2px solid #222;
+  margin-bottom: 24px;
+}
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.section-paragraph {
+  font-size: 1.2rem;
+  line-height: 2;
+}
+.songs-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  margin-top: 40px;
+}
+.song-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 32px 24px 24px 24px;
+  min-width: 260px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  transition: box-shadow 0.2s, transform 0.2s;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  border: 2px solid transparent;
+}
+.song-card:hover, .song-card:focus {
+  box-shadow: 0 6px 24px rgba(0,0,0,0.16);
+  transform: translateY(-4px) scale(1.03);
+  border-color: #beb9b9;
+}
+.song-card .song-icon {
+  font-size: 2.2rem;
+  margin-bottom: 12px;
+  display: block;
+}
+.song-card h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+}
+.song-card p {
+  font-size: 1.05rem;
+  color: #444;
+  margin: 0 0 8px 0;
+}
+.song-lyrics {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s cubic-bezier(0.4,0,0.2,1), padding 0.3s;
+  background: #f7f7f7;
+  border-radius: 0 0 12px 12px;
+  margin-top: 0;
+  padding: 0 16px;
+}
+.song-card.expanded .song-lyrics {
+  max-height: 800px;
+  padding: 24px 16px 16px 16px;
+  margin-top: 12px;
+}
+.song-card .expand-arrow {
+  display: inline-block;
+  transition: transform 0.3s;
+  font-size: 1.2rem;
+  margin-left: 8px;
+}
+.song-card.expanded .expand-arrow {
+  transform: rotate(90deg);
 }

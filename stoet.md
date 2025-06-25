@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Støt Paulis Rødder
 permalink: /stoet/
 ---

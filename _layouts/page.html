@@ -6,9 +6,11 @@
   <title>Paulis Rødder</title>
   <link rel="stylesheet" href="/assets/css/style.css">
 </head>
-<body class="{% if page.url == '/' %}home{% endif %}">
+<body>
   {% include header.html %}
-  {{ content }}
-<script src="/assets/js/main.js"></script>
+  <main>
+    {{ content }}
+  </main>
+  <script src="/assets/js/main.js"></script>
 </body>
 </html>
