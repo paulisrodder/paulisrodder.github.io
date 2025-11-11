@@ -22,7 +22,7 @@
   position: relative;
   text-align: center;
   margin-top: (-1 * $site-logo-height) / 2;
-  margin-bottom: 2em;
+  margin-bottom: 0;
   z-index: 1;
 
   @include breakpoint($medium) {
@@ -33,35 +33,20 @@
     margin-top: (-2 * $site-logo-height) / 2;
   }
 
-    img {
+  img {
     width: 100vw;
-    height: 90vh;
+    /* make the hero less tall so there's room for a section below */
+    height: 30vh;
     object-fit: cover;
     object-position: center;
-  }
-}
+  
+    @include breakpoint($medium) {
+      height: 35vh;
+    }
 
-.page-image-caption {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  margin: 0 auto;
-  padding: 0.25em 0.5em;
-  color: #fff;
-  font-size: 0.75rem;
-  background: #000;
-  text-align: right;
-  z-index: 5;
-  opacity: 0.5;
-  border-radius: 4px 0 0 0;
-
-  > * {
-    margin: 0;
-    padding: 0;
-  }
-
-  a {
-    color: #fff;
+    @include breakpoint($large) {
+      height: 45vh;
+    }
   }
 }
 
@@ -214,12 +199,14 @@
 .layout--search {
   .page-wrapper {
     max-width: $main-max-width;
+    margin-top: 0;
   }
 
   .page-title {
     text-align: center;
   }
 }
+
 
 .layout--post {
   .page-wrapper {
@@ -287,3 +274,57 @@
     max-width: $main-sidebar-max-width;
   }
 }
+
+/* Quick links section on the home page (under the hero) */
+.home-quick-links { 
+  background: #d8dce2;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  padding: 2rem;
+  text-align: center;
+
+  .btn {
+    display: inline-block;
+    margin: 0.5em;
+    padding: 0.75em 1.5em;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    border: 2px solid #333;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: #555;
+      border-color: #555;
+    }
+  }
+}
+
+/* Support/donation section on the home page */
+.home-support-section {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  padding: 2rem;
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  h2 {
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    color: #ddd;
+    line-height: 1.6;
+    max-width: 800px;
+    text-align: center;
+  }
+}
+
