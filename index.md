@@ -82,10 +82,3 @@ Mange har endda valgt at oprette en fast månedlig kontooverførsel til røddern
 		</div>
 	</div>
 </section>
-
-<section class="home-instagram-section">
-  <h2 style="margin-top:0;">Seneste fra Instagram</h2>
-  <div class="home-instagram-container">
-    <!-- LightWidget WIDGET --><script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/4f3a3fc242b052db96a88b5dc736432a.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
-  </div>
-</section>
