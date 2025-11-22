@@ -1,9 +1,8 @@
 ---
 layout: page
+title: FREM i byen
 permalink: frem-i-byen
 ---
-# FREM i byen
-
 Vi har samlet en liste af værtshuse og spisesteder, der støtter Boldklubben FREM.  
 Det vil sige steder, hvor der er FREM-merch på væggene, Fremmere hænger ud, steder ejet af Fremmere og/eller steder der er sponsorer i klubben.
 
