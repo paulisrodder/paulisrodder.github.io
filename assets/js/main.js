@@ -1,17 +1,66 @@
-$(document).ready(function() {
-  // main menu toggle
-  var toggleButton = document.getElementById("menu-toggle");
-  var menu = document.getElementById("primary-nav");
+document.addEventListener('DOMContentLoaded', () => {
+  const header = document.querySelector('.site-header');
+  const nav = document.querySelector('#primary-nav');
+  const navToggle = document.querySelector('.nav-toggle');
+  const navClose = document.querySelector('.nav-close');
+  const body = document.body;
 
-  if (toggleButton && menu) {
-    toggleButton.addEventListener("click", function() {
-      menu.classList.toggle("js-menu-is-open");
+  const toggleHeaderState = () => {
+    if (!header) return;
+    if (window.scrollY > 10) {
+      header.classList.add('scrolled');
+    } else {
+      header.classList.remove('scrolled');
+    }
+  };
+
+  const setNavState = (shouldOpen) => {
+    if (navToggle) {
+      navToggle.setAttribute('aria-expanded', shouldOpen ? 'true' : 'false');
+    }
+    body.classList.toggle('nav-open', shouldOpen);
+    if (header) {
+      header.classList.toggle('nav-open', shouldOpen);
+    }
+  };
+
+  const closeNav = () => setNavState(false);
+
+  const handleToggle = () => {
+    const isOpen = body.classList.contains('nav-open');
+    setNavState(!isOpen);
+  };
+
+  navToggle?.addEventListener('click', handleToggle);
+
+  nav?.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', () => {
+      if (body.classList.contains('nav-open')) {
+        closeNav();
+      }
     });
-  }
+  });
 
-  // initialize smooth scroll
-  $("a").smoothScroll({ offset: -20 });
+  navClose?.addEventListener('click', () => {
+    if (!body.classList.contains('nav-open')) return;
+    closeNav();
+    navToggle?.focus();
+  });
 
-  // add lightbox class to all image links
-  $("a[href$='.jpg'], a[href$='.png'], a[href$='.gif']").attr("data-lity", "");
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && body.classList.contains('nav-open')) {
+      closeNav();
+      navToggle?.focus();
+    }
+  });
+
+  window.addEventListener('resize', () => {
+    if (window.innerWidth > 850 && body.classList.contains('nav-open')) {
+      closeNav();
+    }
+  });
+
+  toggleHeaderState();
+  window.addEventListener('scroll', toggleHeaderState, { passive: true });
+  setNavState(false);
 });
