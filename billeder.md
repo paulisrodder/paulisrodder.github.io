@@ -1,7 +1,7 @@
-﻿---
+---
 layout: page
 title: Billeder
-permalink: /Billeder/
+permalink: /billeder/
 ---
 
 # {{ page.title }}
