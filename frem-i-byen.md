@@ -59,10 +59,10 @@ Det vil sige steder, hvor der er FREM-merch på væggene, Fremmere hænger ud, s
 - Al Mulino  
 
 ### Valby
-- Barners Kælder på farten  
+- Frk. Barners på farten  
 
 ### Vesterbro
-- Barners Kælder  
+- Frk. Barners Kælder  
 
 ### Indre By
 - Restaurant 1899  
