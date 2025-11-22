@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Paulis Rødder</title>
-  <link rel="stylesheet" href="/assets/css/style.css">
+  {% include head.html %}
 </head>
 <body class="{% if page.url == '/' %}home{% endif %}">
   {% include header.html %}
   {{ content }}
+  {% include footer.html %}
 <script src="/assets/js/main.js"></script>
 </body>
 </html>

@@ -2,507 +2,462 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Paulis Rødder</title>
-  <link rel="stylesheet" href="/assets/css/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Klubsange</title>
+
+<!-- Font preload (self-hosted) -->
+<link rel="preload" as="font" href="/assets/fonts/Alfa-Slab-One-Regular.woff2" type="font/woff2" crossorigin>
+<link rel="preload" as="font" href="/assets/fonts/ChineseRocks-Regular.woff2" type="font/woff2" crossorigin>
+<link rel="preload" as="font" href="/assets/fonts/FiraSans-Bold.woff2" type="font/woff2" crossorigin>
+<link rel="preload" as="font" href="/assets/fonts/FiraSans-Medium.woff2" type="font/woff2" crossorigin>
+<link rel="preload" as="font" href="/assets/fonts/FiraSans-Regular.woff2" type="font/woff2" crossorigin>
+
+<!-- Site stylesheet -->
+<link rel="stylesheet" href="/assets/css/style.css">
+
 </head>
-<body>
+<body class="layout-page">
   <header id="site-header" class="site-header">
   <div class="header-container">
-    <div class="logo">Paulis Rødder</div>
-    <nav>
+    <div class="logo"></div>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+      <span class="sr-only">Open menu</span>
+      <span class="nav-toggle__icon" aria-hidden="true">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </span>
+    </button>
+    <button class="nav-close" type="button">
+      <span class="sr-only">Luk menu</span>
+      <span class="nav-close__icon" aria-hidden="true">&times;</span>
+    </button>
+    <nav id="primary-nav" class="primary-nav" aria-label="primary navigation">
       <a href="/">HJEM</a>
       <a href="/klubsange/">KLUBSANGE</a>
       <a href="/spillersange/">SPILLERSANGE</a>
       <a href="/stoet/">STØT</a>
+      <a href="/frem-i-byen/">FREM I BYEN</a>
+      <a href="/billeder/">BILLEDER</a>
     </nav>
   </div>
 </header>
 
-  <main>
-    <div class="songs-list">
-  
-    <div class="song-card" tabindex="0" onclick="toggleLyrics(this)" onkeypress="if(event.key==='Enter'){toggleLyrics(this)}">
-      <span class="song-icon">🎶</span>
-      <h2>Ægte københavner <span class="expand-arrow">▶</span></h2>
-      <p>Vi hader klubfusioner, det' noget af det værste vi ved...</p>
-      <div class="song-lyrics">
-        <p><i>Melodi: Jeg er så glad for min cykel</i></p>
-
-<p>Vi hader klubfusioner, det’ noget af det værste vi ved<br />
-De syge klubbestyrelser, de sku’ ta’ og fyre en fed<br />
-Jeg er en ægte københavner, jeg ryger hash og drikker brændevin<br />
-og det’ da klart, når man er fremmer, så tar man livet med et smil<br />
-<br />
-Min klub har ingen penge, og den går tit konkurs<br />
-Men når alle kæmper sammen, er vi igen på sejrskurs<br />
-Jeg er en ægte københavner, jeg ryger hash og drikker brændevin<br />
-og det’ da klart, når man er fremmer, så tar man livet med et smil<br />
-<br />
-Tag ingenting for givet, Frem er vores arbejderklub<br />
-Lad hele Danmark vide, klassekampen ikke er slut<br />
-Jeg er en ægte københavner, jeg ryger hash og drikker brændevin<br />
-og det’ da klart, når man er fremmer, så tar man livet med et smil<br /></p>
-
-      </div>
-    </div>
-  
-    <div class="song-card" tabindex="0" onclick="toggleLyrics(this)" onkeypress="if(event.key==='Enter'){toggleLyrics(this)}">
-      <span class="song-icon">🎶</span>
-      <h2>Byens Smarte DJ's <span class="expand-arrow">▶</span></h2>
-      <p>Alle byens smarte DJ's er fra Jylland, Og de har aldrig set os på vor tour...</p>
-      <div class="song-lyrics">
-        <p><i>Melodi: Longhaired Redneck, David Allen Coe</i>
-<i>Ord: Søren Ørn</i></p>
-
-<p>Alle byens smarte DJ’s er fra Jylland
-Og de har aldrig set os på vor tour
-Hvor perkerne og punkerne, de løber efter panserne
-Der håber de kan komme levende herfra hjem til Struer</p>
-
-<p>Tykke pi’r fra Brønshøj danser reggae
-Og så si’r du det er mig der er bizar
-Men det er ik’ den første gang og heller ik’ den sidste
-Jeg snorter alle pengene fra Stengades bar</p>
-
-<p>Du har et fedtet overskæg på læben
-Du går på Props og ryger Manitou
-Du hører house og spiser raw food, og du har en fixie cykel
-Og du har ikke hørt om BK Frem endnu</p>
-
-<p>Og vi synger til gården og gaden
-I morgensolens blødrøde skær
-De siger at jeg ligner ballade
-Dørmænd fra Louises kan fortælle hvem jeg er</p>
-
-<p>Jeg er rød som når Johanne har det røde
-Og du er ligeså blå som FCK
-Jeg har siddet i spjældet, du er reklamekonsulent
-Og David Allen Coe vil du jo aldrig ku’ forstå</p>
-
-<p>Og toget kører stadig klokken fire
-Længe efter Charlie han gik ned
-Jeg har været en knallertrocker ligeså lang tid jeg kan huske
-Og indtil vejen ender bli’r jeg ved</p>
-
-<p>For alle byens smarte DJ’s er fra Jylland
-De har aldrig set os på vor tour
-Hvor perkerne og punkerne, de løber efter panserne
-Der håber de kan komme levende her-fra hjem til Stru-er!!!!</p>
-
-      </div>
-    </div>
-  
-    <div class="song-card" tabindex="0" onclick="toggleLyrics(this)" onkeypress="if(event.key==='Enter'){toggleLyrics(this)}">
-      <span class="song-icon">🎶</span>
-      <h2>Det skete med et brag <span class="expand-arrow">▶</span></h2>
-      <p>Det skete med et brag, Jeg faldt pladask for dig...</p>
-      <div class="song-lyrics">
-        <p><i>Melodi: Un giorno all’improviso</i></p>
-
-<p>Det skete med et brag
-Jeg faldt pladask for dig
-Så kom I blå og røde
-Bær striberne for mig
-Og når I scor’ et mål
-Så tænder det et bål
-Forelskede i FREM
-Det skal I nok forstå</p>
-
-<p>Allez allez allez … (på melodien)</p>
-
-<p>Her er melodien, men vi kører den som call and answer: <a href="https://www.youtube.com/watch?v=iNvOt2yDUI4">YouTube link</a></p>
-
-      </div>
-    </div>
-  
-    <div class="song-card" tabindex="0" onclick="toggleLyrics(this)" onkeypress="if(event.key==='Enter'){toggleLyrics(this)}">
-      <span class="song-icon">🎶</span>
-      <h2>Frem-sangen <span class="expand-arrow">▶</span></h2>
-      <p>Vi er fra fodboldklubben FREM, Vi ta’r en masse sejre hjem...</p>
-      <div class="song-lyrics">
-        <p><i>Melodi: Bedre og bedre dag for dag</i>
-<i>Ord: Bent Werge</i></p>
-
-<p>Vi er fra fodboldklubben FREM
-Vi ta’r en masse sejre hjem
-Vi ka’ skyde, vi ka’ heade
-Med et drøn i målet bolden ka’ sætte
-Vi vil kæmpe, vi vil slås
-Så stol I trygt på os
-F og R og E og M
-Er et klubliv fra drenge og til mænd
-(og for pi’r og kvinder!)</p>
-
-      </div>
-    </div>
-  
-    <div class="song-card" tabindex="0" onclick="toggleLyrics(this)" onkeypress="if(event.key==='Enter'){toggleLyrics(this)}">
-      <span class="song-icon">🎶</span>
-      <h2>Græske tilstande <span class="expand-arrow">▶</span></h2>
-      <p>Boldklubben Frem - Boldklubben Frem! Fra København - fra København!...</p>
-      <div class="song-lyrics">
-        <p><i>(Råb - Svar)</i>
-Boldklubben Frem - Boldklubben Frem!
-Fra København - fra København!
-Vi er fra Sydhavn, I vil kende vores navn – vores navn!
-For kærlighed - for kærlighed!
-Og klassekamp - og klassekamp!
-(Alle synger) Stå nu sammen kæmp for Frem i røg og damp!</p>
-
-<p><i>(Synges)</i>
-Boldklubben Frem
-Fra København
-Vi er fra Sydhavn, I vil kende vores navn
-For kærlighed
-Og klassekamp
-Stå nu sammen kæmp for Frem i røg og damp!</p>
-
-      </div>
-    </div>
-  
-    <div class="song-card" tabindex="0" onclick="toggleLyrics(this)" onkeypress="if(event.key==='Enter'){toggleLyrics(this)}">
-      <span class="song-icon">🎶</span>
-      <h2>Hejs piratflaget op (Vi har ingen kaptajn) <span class="expand-arrow">▶</span></h2>
-      <p>Rødder fra Sydhavnen, Hejs piratflaget op, Vi har ingen kaptajn, vi vil ikke hjem...</p>
-      <div class="song-lyrics">
-        <p><i>Melodi: Sloop John B</i>
-<i>Ord: Rasmus E</i></p>
-
-<p>Rødder fra Sydhavnen
-Hejs piratflaget op
-Vi har ingen kaptajn, vi vil ikke hjem
-Vi vil ikke hjem
-Vi ka ik’ finde hje-e-em
-Det her ‘den bedste, kamp vi har været til</p>
-
-<p>Rødder fra Valby af…
-Rødder fra Vesterbro…
-Rødder fra Nørrebro…</p>
-
-      </div>
-    </div>
-  
-    <div class="song-card" tabindex="0" onclick="toggleLyrics(this)" onkeypress="if(event.key==='Enter'){toggleLyrics(this)}">
-      <span class="song-icon">🎶</span>
-      <h2>Her er vi <span class="expand-arrow">▶</span></h2>
-      <p>Her er vi, på stadion nu igen, For at synge højt for Sydhavnen, min ven...</p>
-      <div class="song-lyrics">
-        <p><i>Melodi: Rasputin (verset)</i></p>
-
-<p>Her er vi
-på stadion nu igen
-For at synge højt
-for Sydhavnen, min ven</p>
-
-<p>Og når vi ser
-det blå og røde flag
-Ja så ved vi at
-det er her vi hører til</p>
-
-<p>BK Frem
-Allez allez allez
-Vi er Bk frem
-Allez allez allez x2</p>
-
-      </div>
-    </div>
-  
-    <div class="song-card" tabindex="0" onclick="toggleLyrics(this)" onkeypress="if(event.key==='Enter'){toggleLyrics(this)}">
-      <span class="song-icon">🎶</span>
-      <h2>Hey Ho – Vi er BK Frem <span class="expand-arrow">▶</span></h2>
-      <p>Hvem er det der altid vinder? Hey ho - Vi er BK Frem...</p>
-      <div class="song-lyrics">
-        <p><i>(Én synger for og resten svarer)</i></p>
-
-<ol>
-  <li>
-    <p>Hvem er det der altid vinder?
-Hey ho - Vi er BK Frem
-Hvem har byens bedste kvinder?
-Hey ho - Vi er BK Frem</p>
-  </li>
-  <li>
-    <p>Blod og Guld og fulde flasker
-Hey ho…
-Hold på jeres pung og tasker
-Hey ho…</p>
-  </li>
-  <li>
-    <p>Vi har ikke nogen penge
-Hey ho…
-Vi har ikke haft det længe
-Hey ho…</p>
-  </li>
-  <li>
-    <p>Men Hvem er det i Ik’ kan tie?
-Hey ho…
-Ud af planken med de rige
-Hey ho…</p>
-  </li>
-  <li>
-    <p>Rødder så det op og flage
-Hey ho…
-Skuden FREM vender stærkt tilbage
-Hey ho…</p>
-  </li>
-</ol>
-
-      </div>
-    </div>
-  
-    <div class="song-card" tabindex="0" onclick="toggleLyrics(this)" onkeypress="if(event.key==='Enter'){toggleLyrics(this)}">
-      <span class="song-icon">🎶</span>
-      <h2>Historiesangen <span class="expand-arrow">▶</span></h2>
-      <p>Her er en sang om byens hold, Født på Fælled'n en morgen kold...</p>
-      <div class="song-lyrics">
-        <p><i>Melodi: Liverbird Upon My Chest / Four Leaf Clover Upon My Breast</i>
-<i>Ord: Simon Nyborg</i></p>
-
-<p>Her er en sang om byens hold
-Født på Fælled’n en morgen kold
-En klub for fremskridt fra Blegdamsvej
-Der ofte sejred’ på sin vej
-Der er Frem-skjold på vor trøjer
-Vi deler alle Paulis rødder
-En ægte klub, det har vi vist
-Der ta’r trofæet til allersidst</p>
-
-<p>Vi slog KB, vi røg til top
-Flere sejre fulgte trop
-En klub med stadion på Enghav’vej
-Der ofte sejrede i maj
-Der er Frem-skjold på vor trøjer…</p>
-
-<p>Sofus ”Krølben” sparked’ hårdt
-I 1908 sat’ han rekord
-Ti mål i én kamp han scored’ selv
-Det var i London til OL
-Der er Frem-skjold på vor trøjer…</p>
-
-<p>Pauli Jørgensen var den største
-Fem af guld han kunne høste
-To-otte-og-firs scored’ han
-Han var i sandhed klubbens mand
-Der er Frem-skjold på vor trøjer…</p>
-
-<p>Frem ligger nu i Sydhavnen
-En fodboldklub for jævne mænd
-Der alle kæmper trods svære kår,
-moderne fodbold og hårde år
-Der er Frem-skjold på vor trøjer…</p>
-
-<p>En sorgens dag gik Frem konkurs
-Et nederlag trods sejrskurs
-Fremtiden tegned’ mørk og kold
-Da Brøndby stjal vort stjernehold
-Der er Frem-skjold på vor trøjer…</p>
-
-<p>Hvad skete da i Sydhavnen
-Jo, folk stod sammen og slog igen
-Og på kun ti år vi stred os op
-Nu ligger Frem igen i top
-Der er Frem-skjold på vor trøjer…</p>
-
-<p>Men igen vi kørt’ i sænk
-Ledelsen brugte hver en klink
-Trods at vi samled’ en million
-Er en’ste glæde: Nej til fusion!
-Der er Frem-skjold på vor trøjer…</p>
-
-<p>Frem har seks gyldne trofæer
-Ni af sølv og to pokaler
-Uagtet hvad end der måtte hænde
-Har Frem for altid en gylden stjerne
-Der er Frem-skjold på vor trøjer…</p>
-
-      </div>
-    </div>
-  
-    <div class="song-card" tabindex="0" onclick="toggleLyrics(this)" onkeypress="if(event.key==='Enter'){toggleLyrics(this)}">
-      <span class="song-icon">🎶</span>
-      <h2>Hver gang det er lørdag <span class="expand-arrow">▶</span></h2>
-      <p>For hver gang det er lørdag og Frem går på banen, Så står vi her igen på den gamle tribune...</p>
-      <div class="song-lyrics">
-        <p><i>Melodi: Kun For Mig</i></p>
-
-<p>For hver gang det er lørdag og Frem går på banen
-Så står vi her igen på den gamle tribune
-Og drømmer stort om kærlighed og klassekamp
-Vi synger højt for Fremmerne i røg og damp</p>
-
-<p>Sjalalalala</p>
-
-      </div>
-    </div>
-  
-    <div class="song-card" tabindex="0" onclick="toggleLyrics(this)" onkeypress="if(event.key==='Enter'){toggleLyrics(this)}">
-      <span class="song-icon">🎶</span>
-      <h2>Hvis du elsker FREM <span class="expand-arrow">▶</span></h2>
-      <p>Hvis du elsker FREM, syng med på denne sang, På Valby Stadion står vi her igen...</p>
-      <div class="song-lyrics">
-        <p><i>Melodi: Basket Case</i></p>
-
-<p><strong>Vers:</strong>
-Hvis du elsker FREM, syng med på denne sang
-På Valby Stadion står vi her igen
-Vi har stået her før, kom med os hvis du tør
-Vi elsker FREM og du skal vær’ vor ven</p>
-
-<p><strong>Omkvæd:</strong>
-For F og R og E og M
-Vi synger højt, sejren skal hjem
-Dækket går amok
-Vi kan ikke få nok
-Vi er fra Sydhavnen og vi er FREM</p>
-
-      </div>
-    </div>
-  
-    <div class="song-card" tabindex="0" onclick="toggleLyrics(this)" onkeypress="if(event.key==='Enter'){toggleLyrics(this)}">
-      <span class="song-icon">🎶</span>
-      <h2>Jeg elsker dækket når det gynger <span class="expand-arrow">▶</span></h2>
-      <p>Jeg elsker dækket når det gynger, Og kursen den er sat mod sejr...</p>
-      <div class="song-lyrics">
-        <p><i>Melodi: italiensk folkevise</i></p>
-
-<p>Jeg elsker dækket når det gynger
-Og kursen den er sat mod sejr
-Jeg elsker Fremmerne, der synger
-For klubben som vi alle ejer</p>
-
-<p>Vi er BK Frem, vi er BK Frem
-Vi er BK Frem fra København</p>
-
-<p>Lalala
-Lålålå</p>
-
-      </div>
-    </div>
-  
-    <div class="song-card" tabindex="0" onclick="toggleLyrics(this)" onkeypress="if(event.key==='Enter'){toggleLyrics(this)}">
-      <span class="song-icon">🎶</span>
-      <h2>Sydhavnens pirater <span class="expand-arrow">▶</span></h2>
-      <p>Fremmerne med trøjer i rød og blå, Arbejderklubben fra det gamle København...</p>
-      <div class="song-lyrics">
-        <p><i>Mel: Johnny I hardly Knew Ya (When Johnny Comes Marching Home)</i>
-<i>Ord: Simon Nyborg</i></p>
-
-<p>(Åbningsvers)</p>
-
-<p>Fremmerne med trøjer i rød og blå
-Arbejderklubben fra det gamle København
-Vi kæmper og vi slåsser, selv om kårene er små
-Hvad fuck ved I om modgang og afsavn</p>
-
-<p>(Gentages)</p>
-
-<p>Vi’ Sydhavnens pirater, og vi har en kæmpe gæld
-Går planken ud og går konkurs, men ingen kan slå os ihjel
-Vi har vundet det hele og mistet alt igen
-Men vi er Frem, og vi frygter kun os selv</p>
-
-<p>Tralalalej - Tralalalej
-Tralalalej - Tralalalej</p>
-
-<p>Vi! Skider på den moderne fodbold!</p>
-
-      </div>
-    </div>
-  
-    <div class="song-card" tabindex="0" onclick="toggleLyrics(this)" onkeypress="if(event.key==='Enter'){toggleLyrics(this)}">
-      <span class="song-icon">🎶</span>
-      <h2>Vi bevarer kærlighed <span class="expand-arrow">▶</span></h2>
-      <p>Åhhh Boldklubben FREM, Vi rykker op, vi rykker ned...</p>
-      <div class="song-lyrics">
-        <p><i>Melodi: Champs Elysées</i></p>
-
-<p>Åhhh Boldklubben FREM
-Åhhh Boldklubben FREM
-Vi rykker op, vi rykker ned
-Men vi bevarer kærlighed
-Til vores klub fra København
-Vi er BK FREM</p>
-
-      </div>
-    </div>
-  
-    <div class="song-card" tabindex="0" onclick="toggleLyrics(this)" onkeypress="if(event.key==='Enter'){toggleLyrics(this)}">
-      <span class="song-icon">🎶</span>
-      <h2>Vi er det gamle København <span class="expand-arrow">▶</span></h2>
-      <p>Vi er det gamle København, Vi står sammen når intet er let...</p>
-      <div class="song-lyrics">
-        <p><i>Melodi: gammel folkevise</i></p>
-
-<p>Vi er det gamle København
-Vi står sammen når intet er let
-Historien kan ingen tage fra os
-Her har vi grinet og grædt</p>
-
-<p>Der’ andet end penge i verden
-Kærlighed overgår alt
-Til klubben, til trøjen, til livet
-Frem er vor et og vor alt</p>
-
-      </div>
-    </div>
-  
-    <div class="song-card" tabindex="0" onclick="toggleLyrics(this)" onkeypress="if(event.key==='Enter'){toggleLyrics(this)}">
-      <span class="song-icon">🎶</span>
-      <h2>Vi er ukrudt som ikke kan forgå <span class="expand-arrow">▶</span></h2>
-      <p>Vi er BK Frem fra København og, Vi er ukrudt som ikke kan forgå...</p>
-      <div class="song-lyrics">
-        <p>Vi er BK Frem fra København og
-Vi er ukrudt som ikke kan forgå
-Vi er alle de typer verden savner
-Vi er dem jeres penge ik’ ka’ nå</p>
-
-<p>Vi er Fremmerne, vi er tilbage
-Vi skal feste når Parken går fallit
-Vi har gået og talt jeres dage
-Vi er kommunens nummer et</p>
-
-<p>La la la … (på melodien)</p>
-
-<p><strong>B-stykke:</strong>
-Vi er FREM – lalalalaaaa
-BK FREM – lålålålålålå</p>
-
-<p>Melodien, men de kører vers – b-stykke – omkvæd: <a href="https://youtu.be/NHA5V55oon8?t=4m47s">YouTube link</a></p>
-
-      </div>
-    </div>
-  
-    <div class="song-card" tabindex="0" onclick="toggleLyrics(this)" onkeypress="if(event.key==='Enter'){toggleLyrics(this)}">
-      <span class="song-icon">🎶</span>
-      <h2>Vi’ halvvejs der <span class="expand-arrow">▶</span></h2>
-      <p>Hun siger vi skal holde fast i det vi har, Det gør ingenting om vi klar' det eller ej...</p>
-      <div class="song-lyrics">
-        <p><i>Melodi: Livin’ on a Prayer</i></p>
-
-<p>Hun siger vi skal holde fast i det vi har
-Det gør ingenting om vi klar’ det eller ej
-Vi har hinanden og det’ okay fooor
-Vi gir’ det et skud</p>
-
-<p>Åhh vi’ halvvejs der
-Åh åh Sydhavnens pirater
-Ta’ min hånd og vi klar’ den os to
-Åh åh i 3. division</p>
-
-      </div>
-    </div>
-  
+
+  <main id="main-content" class="page-main" tabindex="-1">
+    <div class="page-content">
+      <h1 id="klubsange">Klubsange</h1>
+
+<div class="song-list">
+
+  <details>
+  <summary><strong>Byens Smarte DJ's</strong></summary>
+  <p><i>Melodi: Longhaired Redneck, David Allen Coe</i><br />
+  <i>Ord: Søren Ørn</i><br /><br />
+  Alle byens smarte DJ's er fra Jylland<br />
+  Og de har aldrig set os på vor tour<br />
+  Hvor perkerne og punkerne, de løber efter panserne<br />
+  Der håber de kan komme levende herfra hjem til Struer<br /><br />
+  Tykke pi'r fra Brønshøj danser reggae<br />
+  Og så si'r du det er mig der er bizar<br />
+  Men det er ik' den første gang og heller ik' den sidste<br />
+  Jeg snorter alle pengene fra Stengades bar<br /><br />
+  Du har et fedtet overskæg på læben<br />
+  Du går på Props og ryger Manitou<br />
+  Du hører house og spiser raw food, og du har en fixie cykel<br />
+  Og du har ikke hørt om BK Frem endnu<br /><br />
+  Og vi synger til gården og gaden<br />
+  I morgensolens blødrøde skær<br />
+  De siger at jeg ligner ballade<br />
+  Dørmænd fra Louises kan fortælle hvem jeg er<br /><br />
+  Jeg er rød som når Johanne har det røde<br />
+  Og du er ligeså blå som FCK<br />
+  Jeg har siddet i spjældet, du er reklamekonsulent<br />
+  Og David Allen Coe vil du jo aldrig ku' forstå<br /><br />
+  Og toget kører stadig klokken fire<br />
+  Længe efter Charlie han gik ned<br />
+  Jeg har været en knallertrocker ligeså lang tid jeg kan huske<br />
+  Og indtil vejen ender bli'r jeg ved<br /><br />
+  For alle byens smarte DJ's er fra Jylland<br />
+  De har aldrig set os på vor tour<br />
+  Hvor perkerne og punkerne, de løber efter panserne<br />
+  Der håber de kan komme levende her-fra hjem til Stru-er!!!!</p>
+</details>
+
+
+  <details>
+  <summary><strong>Det skete med et brag</strong></summary>
+  <p><i>Melodi: Un giorno all’improviso</i><br /><br />
+  Det skete med et brag<br />
+  Jeg faldt pladask for dig<br />
+  Så kom I blå og røde<br />
+  Bær striberne for mig<br />
+  Og når I scor’ et mål<br />
+  Så tænder det et bål<br />
+  Forelskede i FREM<br />
+  Det skal I nok forstå<br /><br />
+  Allez allez allez … (på melodien)<br /><br />
+  Her er melodien, men vi kører den som call and answer: <a href="https://www.youtube.com/watch?v=iNvOt2yDUI4" target="_blank">https://www.youtube.com/watch?v=iNvOt2yDUI4</a></p>
+</details>
+
+
+  <details>
+  <summary><strong>Frem-sangen</strong></summary>
+  <p><i>Melodi: Bedre og bedre dag for dag</i><br />
+  <i>Ord: Bent Werge</i><br /><br />
+  Vi er fra fodboldklubben FREM<br />
+  Vi ta’r en masse sejre hjem<br />
+  Vi ka’ skyde, vi ka’ heade<br />
+  Med et drøn i målet bolden ka’ sætte<br />
+  Vi vil kæmpe, vi vil slås<br />
+  Så stol I trygt på os<br />
+  F og R og E og M<br />
+  Er et klubliv fra drenge og til mænd<br />
+  (og for pi'r og kvinder!)</p>
+</details>
+
+
+  <details>
+  <summary><strong>Gåbajer med til Valby Stadion</strong></summary>
+  <p><i>Melodi: ?</i><br /><br />
+  Jeg var lige kommet til verden<br />
+  Da min mor så på mig og hun sa'<br />
+  Vi skal ha' gåbajer med til Valby Stadion<br />
+  For Fremmerne spiller i dag<br />
+  Lålålå</p>
+</details>
+
+
+  <details>
+  <summary><strong>Græske tilstande</strong></summary>
+  <p><i>(Råb - Svar)</i><br />
+  Boldklubben Frem - Boldklubben Frem!<br />
+  Fra København - fra København!<br />
+  Vi er fra Sydhavn, I vil kende vores navn – vores navn!<br />
+  For kærlighed - for kærlighed!<br />
+  Og klassekamp - og klassekamp!<br />
+  (Alle synger) Stå nu sammen kæmp for Frem i røg og damp!<br /><br />
+  <i>(Synges)</i><br />
+  Boldklubben Frem<br />
+  Fra København<br />
+  Vi er fra Sydhavn, I vil kende vores navn<br />
+  For kærlighed<br />
+  Og klassekamp<br />
+  Stå nu sammen kæmp for Frem i røg og damp!</p>
+</details>
+
+
+  <details>
+  <summary><strong>Hejs piratflaget op (Vi har ingen kaptajn)</strong></summary>
+  <p><i>Melodi: Sloop John B</i><br />
+  <i>Ord: Rasmus E</i><br /><br />
+  Rødder fra Sydhavnen<br />
+  Hejs piratflaget op<br />
+  Vi har ingen kaptajn, vi vil ikke hjem<br />
+  Vi vil ikke hjem<br />
+  Vi ka ik' finde hje-e-em<br />
+  Det her 'den bedste, kamp vi har været til<br /><br />
+  Rødder fra Valby af...<br />
+  Rødder fra Vesterbro...<br />
+  Rødder fra Nørrebro...</p>
+</details>
+
+
+  <details>
+  <summary><strong>Her er vi</strong></summary>
+  <p><i>Melodi: Rasputin (verset)</i><br /><br />
+  Her er vi<br />
+  på stadion nu igen<br />
+  For at synge højt<br />
+  for Sydhavnen, min ven<br /><br />
+  Og når vi ser<br />
+  det blå og røde flag<br />
+  Ja så ved vi at<br />
+  det er her vi hører til<br /><br />
+  BK Frem<br />
+  Allez allez allez<br />
+  Vi er Bk frem<br />
+  Allez allez allez x2</p>
+</details>
+
+
+  <details>
+    <summary><strong>Hey Ho – Vi er BK Frem</strong></summary>
+    <p><i>(Én synger for og resten svarer)</i><br /><br />
+    1. Hvem er det der altid vinder?<br />
+    Hey ho - Vi er BK Frem<br />
+    Hvem har byens bedste kvinder?<br />
+    Hey ho - Vi er BK Frem<br /><br />
+    2. Blod og Guld og fulde flasker<br />
+    Hey ho...<br />
+    Hold på jeres pung og tasker<br />
+    Hey ho...<br /><br />
+    3. Vi har ikke nogen penge<br />
+    Hey ho...<br />
+    Vi har ikke haft det længe<br />
+    Hey ho...<br /><br />
+    4. Men Hvem er det i Ik' kan tie?<br />
+    Hey ho...<br />
+    Ud af planken med de rige<br />
+    Hey ho...<br /><br />
+    5. Rødder så det op og flage<br />
+    Hey ho...<br />
+    Skuden FREM vender stærkt tilbage<br />
+    Hey ho...<br />
+    </p>
+</details>
+
+
+  <details>
+  <summary><strong>Historiesangen</strong></summary>
+  <p><i>Melodi: Liverbird Upon My Chest / Four Leaf Clover Upon My Breast</i><br />
+  <i>Ord: Simon Nyborg</i><br /><br />
+  Her er en sang om byens hold<br />
+  Født på Fælled'n en morgen kold<br />
+  En klub for fremskridt fra Blegdamsvej<br />
+  Der ofte sejred' på sin vej<br />
+  Der er Frem-skjold på vor trøjer<br />
+  Vi deler alle Paulis rødder<br />
+  En ægte klub, det har vi vist<br />
+  Der ta'r trofæet til allersidst<br /><br />
+  Vi slog KB, vi røg til top<br />
+  Flere sejre fulgte trop<br />
+  En klub med stadion på Enghav'vej<br />
+  Der ofte sejrede i maj<br />
+  Der er Frem-skjold på vor trøjer...<br /><br />
+  Sofus ”Krølben” sparked' hårdt<br />
+  I 1908 sat' han rekord<br />
+  Ti mål i én kamp han scored' selv<br />
+  Det var i London til OL<br />
+  Der er Frem-skjold på vor trøjer...<br /><br />
+  Pauli Jørgensen var den største<br />
+  Fem af guld han kunne høste<br />
+  To-otte-og-firs scored' han<br />
+  Han var i sandhed klubbens mand<br />
+  Der er Frem-skjold på vor trøjer...<br /><br />
+  Frem ligger nu i Sydhavnen<br />
+  En fodboldklub for jævne mænd<br />
+  Der alle kæmper trods svære kår,<br />
+  moderne fodbold og hårde år<br />
+  Der er Frem-skjold på vor trøjer...<br /><br />
+  En sorgens dag gik Frem konkurs<br />
+  Et nederlag trods sejrskurs<br />
+  Fremtiden tegned' mørk og kold<br />
+  Da Brøndby stjal vort stjernehold<br />
+  Der er Frem-skjold på vor trøjer...<br /><br />
+  Hvad skete da i Sydhavnen<br />
+  Jo, folk stod sammen og slog igen<br />
+  Og på kun ti år vi stred os op<br />
+  Nu ligger Frem igen i top<br />
+  Der er Frem-skjold på vor trøjer...<br /><br />
+  Men igen vi kørt' i sænk<br />
+  Ledelsen brugte hver en klink<br />
+  Trods at vi samled' en million<br />
+  Er en'ste glæde: Nej til fusion!<br />
+  Der er Frem-skjold på vor trøjer...<br /><br />
+  Frem har seks gyldne trofæer<br />
+  Ni af sølv og to pokaler<br />
+  Uagtet hvad end der måtte hænde<br />
+  Har Frem for altid en gylden stjerne<br />
+  Der er Frem-skjold på vor trøjer...</p>
+</details>
+
+
+  <details>
+  <summary><strong>Hver gang det er lørdag</strong></summary>
+  <p><i>Melodi: Kun For Mig</i><br /><br />
+  For hver gang det er lørdag og Frem går på banen<br />
+  Så står vi her igen på den gamle tribune<br />
+  Og drømmer stort om kærlighed og klassekamp<br />
+  Vi synger højt for Fremmerne i røg og damp<br /><br />
+  Sjalalalala</p>
+</details>
+
+
+  <details>
+  <summary><strong>Hvis du elsker FREM</strong></summary>
+  <p><i>Melodi: Basket Case</i><br /><br />
+  <strong>Vers:</strong><br />
+  Hvis du elsker FREM, syng med på denne sang<br />
+  På Valby Stadion står vi her igen<br />
+  Vi har stået her før, kom med os hvis du tør<br />
+  Vi elsker FREM og du skal vær’ vor ven<br /><br />
+  <strong>Omkvæd:</strong><br />
+  For F og R og E og M<br />
+  Vi synger højt, sejren skal hjem<br />
+  Dækket går amok<br />
+  Vi kan ikke få nok<br />
+  Vi er fra Sydhavnen og vi er FREM</p>
+</details>
+
+
+  <details>
+  <summary><strong>Jeg elsker dækket når det gynger</strong></summary>
+  <p><i>Melodi: italiensk folkevise</i><br /><br />
+  Jeg elsker dækket når det gynger<br />
+  Og kursen den er sat mod sejr<br />
+  Jeg elsker Fremmerne, der synger<br />
+  For klubben som vi alle ejer<br /><br />
+  Vi er BK Frem, vi er BK Frem<br />
+  Vi er BK Frem fra København<br /><br />
+  Lalala<br />
+  Lålålå</p>
+</details>
+
+
+  <details>
+  <summary><strong>Kom så gutter</strong></summary>
+  <p><i>Råbesang</i><br />
+  Kom så gutter, kom så FREM<br />
+  Nu ska’ de fandme ha’ no’en bank<br />
+  Hey hey hey</p>
+</details>
+
+
+  <details>
+  <summary><strong>Mit hjerte har striber på</strong></summary>
+  <p><i>I was made for lovin' you</i><br /><br />
+  Jeg er til for Fremmerne i Valby<br />
+  Det er derfor jeg er her<br />
+  Mit hjerte har striber på, baby<br />
+  Til det ikke banker mer'</p>
+</details>
+
+
+  <details>
+  <summary><strong> Når jeg står her med de andre </strong></summary>
+  <p><i>Melodi: Amore mio dai non essere gelosa </i><br /><br />
+  Når jeg står her med de andre drenge og piger <br />
+  Så kan det føles som at tiden går i stå <br />
+  For den kærlighed som findes på tribunen <br />
+  Den er der ingenting i verden der kan slå <br /><br />
+  Og når Sydhavnens pirater sætter sejlet <br />
+  Så er vi med i hver en by og hver en havn <br />
+  Vi rejser landet rundt med trommer og kanoner <br />
+  Vi er Frem og I vil kende vores navn</p>
+</details>
+
+
+  <details>
+  <summary><strong>Sydhavnens pirater</strong></summary>
+  <p><i>Mel: Johnny I hardly Knew Ya (When Johnny Comes Marching Home)</i><br />
+  <i>Ord: Simon Nyborg</i><br /><br />
+  (Åbningsvers)<br /><br />
+  Fremmerne med trøjer i rød og blå<br />
+  Arbejderklubben fra det gamle København<br />
+  Vi kæmper og vi slåsser, selv om kårene er små<br />
+  Hvad fuck ved I om modgang og afsavn<br /><br />
+  (Gentages)<br /><br />
+  Vi' Sydhavnens pirater, og vi har en kæmpe gæld<br />
+  Går planken ud og går konkurs, men ingen kan slå os ihjel<br />
+  Vi har vundet det hele og mistet alt igen<br />
+  Men vi er Frem, og vi frygter kun os selv<br /><br />
+  Tralalalej - Tralalalej<br />
+  Tralalalej - Tralalalej<br /><br />
+  Vi! Skider på den moderne fodbold!</p>
+</details>
+
+
+  <details>
+  <summary><strong>Vi bevarer kærlighed</strong></summary>
+  <p><i>Melodi: Champs Elysées</i><br /><br />
+  Åhhh Boldklubben FREM<br />
+  Åhhh Boldklubben FREM<br />
+  Vi rykker op, vi rykker ned<br />
+  Men vi bevarer kærlighed<br />
+  Til vores klub fra København<br />
+  Vi er BK FREM</p>
+</details>
+
+
+  <details>
+  <summary><strong>Vi er det gamle København</strong></summary>
+  <p><i>Melodi: gammel folkevise</i><br /><br />
+  Vi er det gamle København<br />
+  Vi står sammen når intet er let<br />
+  Historien kan ingen tage fra os<br />
+  Her har vi grinet og grædt<br /><br />
+  Der’ andet end penge i verden<br />
+  Kærlighed overgår alt<br />
+  Til klubben, til trøjen, til livet<br />
+  Frem er vor et og vor alt</p>
+</details>
+
+
+  <details>
+  <summary><strong>Vi er ukrudt som ikke kan forgå</strong></summary>
+  <p>
+  Vi er BK Frem fra København og<br />
+  Vi er ukrudt som ikke kan forgå<br />
+  Vi er alle de typer verden savner<br />
+  Vi er dem jeres penge ik’ ka’ nå<br /><br />
+  Vi er Fremmerne, vi er tilbage<br />
+  Vi skal feste når Parken går fallit<br />
+  Vi har gået og talt jeres dage<br />
+  Vi er kommunens nummer et<br /><br />
+  La la la … (på melodien)<br /><br />
+  <strong>B-stykke:</strong><br />
+  Vi er FREM – lalalalaaaa<br />
+  BK FREM – lålålålålålå<br /><br />
+  Melodien, men de kører vers – b-stykke – omkvæd: 
+  <a href="https://youtu.be/NHA5V55oon8?t=4m47s" target="_blank">https://youtu.be/NHA5V55oon8?t=4m47s</a>
+  </p>
+</details>
+
+
+  <details>
+  <summary><strong>Vi’ halvvejs der</strong></summary>
+  <p><i>Melodi: Livin’ on a Prayer</i><br /><br />
+  Hun siger vi skal holde fast i det vi har<br />
+  Det gør ingenting om vi klar' det eller ej<br />
+  Vi har hinanden og det' okay fooor<br />
+  Vi gir' det et skud<br /><br />
+  Åhh vi’ halvvejs der<br />
+  Åh åh Sydhavnens pirater<br />
+  Ta’ min hånd og vi klar’ den os to<br />
+  Åh åh i 3. division</p>
+</details>
+
+
+  <details>
+  <summary><strong>Ægte københavner</strong></summary>
+  <p><i>Melodi: Jeg er så glad for min cykel</i><br /><br />
+  Vi hader klubfusioner, det' noget af det værste vi ved<br />
+  De syge klubbestyrelser, de sku’ ta’ og fyre en fed<br />
+  Jeg er en ægte københavner, jeg ryger hash og drikker brændevin<br />
+  og det' da klart, når man er fremmer, så tar man livet med et smil<br /><br />
+  Min klub har ingen penge, og den går tit konkurs<br />
+  Men når alle kæmper sammen, er vi igen på sejrskurs<br />
+  Jeg er en ægte...<br /><br />
+  Tag ingenting for givet, Frem er vores arbejderklub<br />
+  Lad hele Danmark vide, klassekampen ikke er slut<br />
+  Jeg er en ægte...</p>
+</details>
+
+
 </div>
 
-<script>
-function toggleLyrics(card) {
-  card.classList.toggle('expanded');
-}
-</script>
-
-
+    </div>
   </main>
+  <footer class="site-footer" aria-label="Footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <div class="footer__social">
+        <a href="https://www.facebook.com/Paulisrodder" target="_blank" rel="noopener" aria-label="Paulis Rødder på Facebook">
+          <img src="/assets/images/icons/facebook-icon-white.svg" alt="" role="presentation">
+        </a>
+        <a href="https://www.instagram.com/paulisrodderbkfrem/" target="_blank" rel="noopener" aria-label="Paulis Rødder på Instagram">
+          <img src="/assets/images/icons/instagram-icon-white.svg" alt="" role="presentation">
+        </a>
+      </div>
+      <p class="footer__eyebrow">Paulis Rødder</p>
+      <p class="footer__tagline">Vi har ingen kaptajn</p>
+    </div>
+  </div>
+</footer>
+
+
   <script src="/assets/js/main.js"></script>
 </body>
 </html>
+

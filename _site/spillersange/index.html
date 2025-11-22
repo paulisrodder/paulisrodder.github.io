@@ -2,51 +2,246 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Paulis Rødder</title>
-  <link rel="stylesheet" href="/assets/css/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spillersange</title>
+
+<!-- Font preload (self-hosted) -->
+<link rel="preload" as="font" href="/assets/fonts/Alfa-Slab-One-Regular.woff2" type="font/woff2" crossorigin>
+<link rel="preload" as="font" href="/assets/fonts/ChineseRocks-Regular.woff2" type="font/woff2" crossorigin>
+<link rel="preload" as="font" href="/assets/fonts/FiraSans-Bold.woff2" type="font/woff2" crossorigin>
+<link rel="preload" as="font" href="/assets/fonts/FiraSans-Medium.woff2" type="font/woff2" crossorigin>
+<link rel="preload" as="font" href="/assets/fonts/FiraSans-Regular.woff2" type="font/woff2" crossorigin>
+
+<!-- Site stylesheet -->
+<link rel="stylesheet" href="/assets/css/style.css">
+
 </head>
-<body>
+<body class="layout-page">
   <header id="site-header" class="site-header">
   <div class="header-container">
-    <div class="logo">Paulis Rødder</div>
-    <nav>
+    <div class="logo"></div>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+      <span class="sr-only">Open menu</span>
+      <span class="nav-toggle__icon" aria-hidden="true">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </span>
+    </button>
+    <button class="nav-close" type="button">
+      <span class="sr-only">Luk menu</span>
+      <span class="nav-close__icon" aria-hidden="true">&times;</span>
+    </button>
+    <nav id="primary-nav" class="primary-nav" aria-label="primary navigation">
       <a href="/">HJEM</a>
       <a href="/klubsange/">KLUBSANGE</a>
       <a href="/spillersange/">SPILLERSANGE</a>
       <a href="/stoet/">STØT</a>
+      <a href="/frem-i-byen/">FREM I BYEN</a>
+      <a href="/billeder/">BILLEDER</a>
     </nav>
   </div>
 </header>
 
-  <main>
-    <h2 id="spillersange">Spillersange</h2>
 
-<p>Her er nogle af de sange vi synger for at hylde vores fantastiske spillere!</p>
+  <main id="main-content" class="page-main" tabindex="-1">
+    <div class="page-content">
+      <h1 id="spillersange">Spillersange</h1>
 
-<h3 id="for-angriberen-spillerens-navn">For angriberen: [Spillerens Navn]</h3>
+<div class="song-group">
+  <h2>Nuværende spillere</h2>
+  <div class="song-list">
+  
+    <details>
+  <summary><strong>Daniel Warmbach</strong></summary>
+  <p><i>Melodi: Our House</i><br /><br />
+  Warmbach<br />
+  In the middle of the field<br />
+  Warmbach<br />
+  Scorer mål i Fremmerstil</p>
+</details>
 
-<p>(Melodi: “Der er et yndigt land” - eller anden simpel melodi)</p>
+  
+    <details>
+  <summary><strong>Emil Schou Jørgensen</strong></summary>
+  <p><i>Melodi: Emil fra Lønneberg</i><br /><br />
+  EMIIIIL<br /><br />
+  Uha-da-da så stor han er<br />
+  Og bygget som et hus<br />
+  Emil det er det navn han bær’<br />
+  Emil ja husk det nu<br /><br />
+  EMIIIIL</p>
+</details>
 
-<p>[Spillerens Navn], du er vores målscorer,
-Hver gang du skyder, så ryster målet!
-Du er den bedste, vi synger dit navn,
-Kom så [Spillerens Navn], gør det til skam!</p>
+  
+    <details>
+  <summary><strong>Gustav Overgaard Hansen</strong></summary>
+  <p><i>Melodi: Give It Up</i><br /><br />
+  Na-na, na-na, na-na, na-na-na-na now<br />
+  Ingen overgår<br />
+  Overgaard<br />
+  Gustav Overgaard</p>
+</details>
 
-<h3 id="for-forsvarsspilleren-spillerens-navn">For forsvarsspilleren: [Spillerens Navn]</h3>
+  
+    <details>
+  <summary><strong>Malthe Karsberg</strong></summary>
+  <p><i>Melodi: We love you Arsenal</i><br /><br />
+  Det’ Malthe Karsberg i rød og blå<br />
+  Han er så yndig med striber på<br />
+  Han kom fra Århus til København<br />
+  Nu kender alle Malthes navn</p>
+</details>
 
-<p>(Melodi: fri)</p>
+  
+    <details>
+  <summary><strong>Philip Nzeyimana Oslev</strong></summary>
+  <p><i>Melodi: ?</i><br /><br />
+  Nr. 14 løber han rundt i<br />
+  Har været på landsholdet i Burundi<br />
+  Philip Oslev, Philip Oslev<br />
+  Allez, allez, allez</p>
+</details>
 
-<p>Solid som en mur, står du bagest på banen,
-[Spillerens Navn], du tager ingen chancer!
-Vores forsvar er stærkt, når du leder an,
-Paulis Rødder bag dig, en sand fremtidens mand!</p>
+  
+    <details>
+  <summary><strong>Tobias Søderstrøm</strong></summary>
+  <p><i>Melodi: To mennesker på en strand</i><br /><br />
+  To-bias Søderstrøm<br />
+  Han ser ud som en drøm<br />
+  Tog chancen da den kom<br />
+  Tobias Søderstrøm</p>
+</details>
 
-<hr />
+  
+  </div>
+</div>
 
-<p><em>Disse sange er eksempler. Tilpas dem med rigtige spillernavne og melodier!</em></p>
+<div class="song-group">
+  <h2>Tidligere spillere</h2>
+  <div class="song-list">
+  
+    <details>
+  <summary><strong>Beran Camili</strong></summary>
+  <p><i>Melodi: ?</i><br /><br />
+  Camili, han er ægte<br />
+  Er ægte<br />
+  Er ægte<br />
+  Ægte som en Fremmer<br />
+  En Fremmer<br />
+  En Fremmer<br /><br />
+  Og Fremmerne er ægte<br />
+  Er ægte<br />
+  Er ægte<br />
+  Ægte som Camili<br />
+  Camili<br />
+  Camili</p>
+</details>
 
+  
+    <details>
+  <summary><strong>Isak Tånnander</strong></summary>
+  <p><i>Melodi: ?</i><br /><br />
+  Der er kun en Isak Tånnander<br />
+  Han sprinter som en panter<br />
+  Han er FREMs nr. 12, han går aldrig kold<br />
+  Han tager med til 2. division</p>
+</details>
+
+  
+    <details>
+  <summary><strong>Kim Jaemin</strong></summary>
+  <p><i>Melodi: Jutlandia</i><br /><br />
+  Det var i 2013 eller ca. deromkring<br />
+  Da vi fik Kim fra Korea<br />
+  Skibet det hed BK Frem og det kom vidt omkring<br />
+  Da vi fik Kim fra Korea<br /><br />
+  Udstillet fra kælder til sal<br />
+  Fremad Ama'r - I ved det ender galt<br /><br />
+  Hey ho for Boldklubben FREM<br />
+  Vi vinder om hundrede år<br />
+  Hey ho for Boldklubben FREM<br />
+  Når folket, det end'lig ta'r over</p>
+</details>
+
+  
+    <details>
+  <summary><strong>Mikkel Andersson</strong></summary>
+  <p><i>Melodi: Yellow Submarine</i><br /><br />
+  Vi vil ha’ et hold kun med Mikkel Andersson<br />
+  Mikkel Andersson<br />
+  Mikkel Andersson<br />
+  Vi vil ha’ et hold kun med Mikkel Andersson<br />
+  Mikkel Andersson<br />
+  Mikkel Andersson<br /><br />
+  Nummer 1 er Andersson<br />
+  Nummer 2 er Andersson<br />
+  Nummer 3 er Andersson<br />
+  Nummer 4 er Andersson<br />
+  Nummer 5 er Andersson<br />
+  Nummer 6 er Andersson<br />
+  Nummer 7 er Andersson<br />
+  Nummer 8 er Andersson<br />
+  Nummer 9 er Andersson<br />
+  Nummer 10 er Andersson<br />
+  Nummer 11 er Andersson</p>
+</details>
+
+  
+    <details>
+  <summary><strong>Rasmus Grønne Jensen</strong></summary>
+  <p><i>Melodi: Rapanden Rasmus</i><br /><br />
+  Åh Rasmus Grønne fra Boldklubben FREM<br />
+  Scored’ på sakse i Jylland engang<br />
+  Fløj for en stund ja, men vendte jo hjem<br />
+  Åh Rasmus Grønne fra Boldklubben FREM</p>
+</details>
+
+  
+    <details>
+  <summary><strong>Rasmus Louie Larsen</strong></summary>
+  <p><i>Melodi: ?</i><br /><br />
+  Der er kun en Rasmus Louie<br />
+  Hans hår er der ild i<br />
+  Nummer 21, det er ikke lyv<br />
+  Han ta’r os med til 2. division</p>
+</details>
+
+  
+    <details>
+  <summary><strong>Sylvester Seeger-Hansen</strong></summary>
+  <p><i>Melodi: Ta' med ud og fisk</i><br /><br />
+  Sylvester Seeger-Hansen kan<br />
+  Score mål i Fremmerland<br />
+  Vi hopper og vi danser når det si'r tjubang<br />
+  Så nettet blafrer vildt og vi synger en sang</p>
+</details>
+
+  
+  </div>
+</div>
+
+    </div>
   </main>
+  <footer class="site-footer" aria-label="Footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <div class="footer__social">
+        <a href="https://www.facebook.com/Paulisrodder" target="_blank" rel="noopener" aria-label="Paulis Rødder på Facebook">
+          <img src="/assets/images/icons/facebook-icon-white.svg" alt="" role="presentation">
+        </a>
+        <a href="https://www.instagram.com/paulisrodderbkfrem/" target="_blank" rel="noopener" aria-label="Paulis Rødder på Instagram">
+          <img src="/assets/images/icons/instagram-icon-white.svg" alt="" role="presentation">
+        </a>
+      </div>
+      <p class="footer__eyebrow">Paulis Rødder</p>
+      <p class="footer__tagline">Vi har ingen kaptajn</p>
+    </div>
+  </div>
+</footer>
+
+
   <script src="/assets/js/main.js"></script>
 </body>
 </html>
+

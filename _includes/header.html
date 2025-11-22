@@ -1,11 +1,26 @@
-<header id="site-header" class="site-header">
+﻿<header id="site-header" class="site-header">
   <div class="header-container">
-    <div class="logo">{{ site.title }}</div>
-    <nav>
+    <div class="logo"></div>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+      <span class="sr-only">Open menu</span>
+      <span class="nav-toggle__icon" aria-hidden="true">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </span>
+    </button>
+    <button class="nav-close" type="button">
+      <span class="sr-only">Luk menu</span>
+      <span class="nav-close__icon" aria-hidden="true">&times;</span>
+    </button>
+    <nav id="primary-nav" class="primary-nav" aria-label="primary navigation">
       <a href="/">HJEM</a>
       <a href="/klubsange/">KLUBSANGE</a>
       <a href="/spillersange/">SPILLERSANGE</a>
       <a href="/stoet/">STØT</a>
+      <a href="/frem-i-byen/">FREM I BYEN</a>
+      <a href="/billeder/">BILLEDER</a>
     </nav>
   </div>
 </header>
+

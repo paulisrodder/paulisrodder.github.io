@@ -8,6 +8,15 @@ markdown: kramdown
 theme: minima
 
 collections:
-  songs:
+  klubsange:
     output: true
-    permalink: /songs/:name/
+    permalink: /klubsange/:name/
+  spillersange_nuvaerende:
+    output: true
+    permalink: /spillersange/nuvaerende/:name/
+  spillersange_tidligere:
+    output: true
+    permalink: /spillersange/tidligere/:name/
+
+exclude:
+  - docs

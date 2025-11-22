@@ -3,60 +3,158 @@ layout: default
 title: Paulis Rødder
 ---
 
-<section class="hero">
-  <img src="assets/images/rodderne-aegte-koebenhavn.jpg" alt="Hero" class="hero-image" />
-  <div class="hero-content">
-    <!-- Optional: Add hero text or overlays here -->
-  </div>
-</section>
-
-<section class="sectionwhite">
-  <div class="section-flex-container">
-    <div class="section-col-1">
-      <hr class="section-hr">
-      <h1 class="section-title">Hello.<br>We are EightyOne.</h1>
-    </div>
-    <div class="section-col-2">
-      <p class="section-paragraph">
-        One that looks at things differently.<br>
-        One that thinks independently.<br>
-        One that works collaboratively.<br>
-        One that can turn heads, eighty one ways.
-      </p>
+<section class="hero" id="hero" aria-label="Intro">
+  <picture>
+    <source srcset="/assets/images/hero/hero-bg.webp" type="image/webp">
+    <img src="/assets/images/hero/hero-bg.jpg" alt="Rødderne på dækket" class="hero__bg">
+  </picture>
+  <div class="hero__overlay"></div>
+  <div class="hero__content container">
+    <h1>PAULIS RØDDER</h1>
+    <p class="hero__sub">Vi har ingen kaptajn</p>
+    <div class="hero__cta">
+      <a class="btn btn--primary" href="/klubsange">Klubsange</a>
+      <a class="btn btn--secondary" href="/spillersange">Spillersange</a>
     </div>
   </div>
 </section>
 
-<section class="sectiongrey">
-  <div class="section-flex-container">
-    <div class="section-col-1">
-      <hr class="section-hr">
-      <h1 class="section-title">Hello.<br>We are EightyOne.</h1>
+<!-- Intro -->
+<section class="intro" id="intro" aria-labelledby="intro-title">
+  <div class="container">
+    <header class="intro__header">
+      <h2 id="intro-title">HVEM ER PAULIS RØDDER?</h2>
+    </header>
+    <div class="intro__content">
+    <div class="intro__text">
+      <p>Paulis Rødder holder til bag målet på Valby Idrætspark. Vi samler trommer, bannere og stemmer så BK Frem altid møder et rødt hav af kærlighed og modstand mod moderne fodbold.</p>
+      <p>Vi bygger tribunen på kærlighed, klassekamp og fællesskab uden racisme, chauvinisme eller homofobi. Alle er velkomne så længe de løfter i flok.</p>
+      <p>Vil du male, synge eller holde tempoet på udebane? Tag fat i os på kampen eller via kontaktkanalerne. Der er altid plads til endnu en rod i familien.</p>
     </div>
-    <div class="section-col-2">
-      <p class="section-paragraph">
-        One that looks at things differently.<br>
-        One that thinks independently.<br>
-        One that works collaboratively.<br>
-        One that can turn heads, eighty one ways.
-      </p>
+    <figure class="intro__media">
+      <img src="/assets/images/intro/rodderne.jpg" alt="Rødder på tribunen">
+    </figure>
+  </div>
+</section>
+</section>
+
+<!-- Støt Rødderne -->
+<section class="support" id="stoet" aria-labelledby="support-title">
+  <div class="container">
+    <div class="support__header">
+      <h2 id="support-title">STØT RØDDERNE</h2>
+    </div>
+    <div class="support__grid">
+      <div class="support__content">
+        <p>Er der flere stickers?<br>
+          Orv manner. De nye flag er fede.<br>
+          Man kan sgu godt høre, at trommen har fået nyt skind.<br>
+          Det der konfetti ser mega sejt ud.<br>
+          Og sådan fortsætter det.</p>
+        <p>Rødderne gør hvad vi kan for at skabe de bedste rammer omkring FREMs kampe og det bliver vi ved med. Vi finansierer det selv og er derfor afhængige af, at medfans har lyst til at sende lidt mammon til os.</p>
+        <p>Mange har endda valgt at oprette en fast månedlig kontooverførsel til røddernes skattekiste, så vi fortsat kan føre alle idéerne ud i livet.</p>
+      </div>
+      <aside class="support__card" aria-label="Kontoinformation">
+        <p class="support__card-title">Vil du være med, så bor pengekassen her</p>
+        <dl class="support__bank">
+          <div>
+            <dt>Reg</dt>
+            <dd>0440</dd>
+          </div>
+          <div>
+            <dt>Konto</dt>
+            <dd>4644753050</dd>
+          </div>
+        </dl>
+        <p class="support__note">MobilePay? Spørg os på tribunen. Vi finder en løsning.</p>
+      </aside>
     </div>
   </div>
 </section>
 
-<section class="sectionwhite">
-  <div class="section-flex-container">
-    <div class="section-col-1">
-      <hr class="section-hr">
-      <h1 class="section-title">Hello.<br>We are EightyOne.</h1>
+<!-- Billeder -->
+<section class="gallery" id="Billeder" aria-labelledby="gallery-title">
+  <div class="container">
+    <div class="gallery__header">
+      <h2 id="gallery-title">Billeder</h2>
     </div>
-    <div class="section-col-2">
-      <p class="section-paragraph">
-        One that looks at things differently.<br>
-        One that thinks independently.<br>
-        One that works collaboratively.<br>
-        One that can turn heads, eighty one ways.
-      </p>
+    <ul class="gallery__grid">
+      <li class="gallery__item">
+        <figure>
+          <picture>
+            <source srcset="/assets/images/gallery/kvindekamp-flag.webp" type="image/webp">
+            <img
+              src="/assets/images/gallery/kvindekamp-flag.jpg"
+              alt="Rødderne vifter et Kvindekamp-banner foran tribunen"
+              loading="lazy"
+              decoding="async"
+              width="800"
+              height="600"
+              class="gallery__image">
+          </picture>
+        </figure>
+      </li>
+      <li class="gallery__item">
+        <figure>
+          <picture>
+            <source srcset="/assets/images/gallery/sydhavnens-pirater.webp" type="image/webp">
+            <img
+              src="/assets/images/gallery/sydhavnens-pirater.jpg"
+              alt="Sydhavnens pirater banner"
+              loading="lazy"
+              decoding="async"
+              width="800"
+              height="600"
+              class="gallery__image">
+          </picture>
+        </figure>
+      </li>
+      <li class="gallery__item">
+        <figure>
+          <picture>
+            <source srcset="/assets/images/gallery/frem-for-alt.webp" type="image/webp">
+            <img
+              src="/assets/images/gallery/frem-for-alt.jpg"
+              alt="Frem for alt banner"
+              loading="lazy"
+              decoding="async"
+              width="800"
+              height="600"
+              class="gallery__image">
+          </picture>
+        </figure>
+      </li>
+      <li class="gallery__item">
+        <figure>
+          <picture>
+            <source srcset="/assets/images/gallery/roedder-paa-hjemmebane-flag.webp" type="image/webp">
+            <img
+              src="/assets/images/gallery/roedder-paa-hjemmebane-flag.jpg"
+              alt="Masser af flag på hjemmebane"
+              loading="lazy"
+              decoding="async"
+              width="800"
+              height="600"
+              class="gallery__image">
+          </picture>
+        </figure>
+      </li>
+    </ul>
+    <div class="gallery__actions">
+      <a class="btn btn--secondary" href="/Billeder/">Se flere billeder</a>
     </div>
   </div>
 </section>
+
+<section class="single-graphic" aria-label="Sutterne fra Sydhavnen plakat">
+  <figure class="single-graphic__frame">
+    <img
+      src="/assets/images/graphics/sutterne-fra-sydhavnen.jpg"
+      alt="Sutterne fra Sydhavnen plakat"
+      loading="lazy"
+      decoding="async"
+      class="single-graphic__image">
+  </figure>
+</section>
+
+
