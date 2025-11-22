@@ -1,7 +1,7 @@
 ---
 layout: page
 title: FREM i byen
-permalink: frem-i-byen
+permalink: /frem-i-byen/
 ---
 
 # {{ page.title }}

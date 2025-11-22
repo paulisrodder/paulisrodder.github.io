@@ -16,7 +16,6 @@ Thumbs.db
 
 # Ruby bundler
 .bundle/
-Gemfile.lock
 
 # Ignore node_modules if used in the future
 node_modules/
