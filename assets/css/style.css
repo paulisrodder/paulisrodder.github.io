@@ -520,7 +520,7 @@ body.layout-page {
 
 /* Footer */
 .site-footer {
-  background: #111029;
+  background: var(--blue);
   color: var(--offwhite);
   padding-top: 3rem;
 }
@@ -558,7 +558,7 @@ body.layout-page {
   outline: none;
   box-shadow:
     0 0 0 3px var(--offwhite),
-    0 0 0 6px rgba(0, 0, 0, 0.35);
+    0 0 0 6px var(--blue);
 }
 .footer__social img {
   width: 32px;
@@ -603,7 +603,7 @@ body.layout-page {
     right: 0;
     bottom: 0;
     width: min(240px, 70vw);
-    background: rgba(0, 0, 81, 0.97);
+    background: var(--blue);
     flex-direction: column;
     align-items: flex-start;
     gap: 1.5rem;
