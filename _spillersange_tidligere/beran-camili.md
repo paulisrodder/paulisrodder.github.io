@@ -4,16 +4,17 @@ title: "Beran Camili"
 <details>
   <summary><strong>Beran Camili</strong></summary>
   <p><i>Melodi: ?</i><br><br>
-  Camili, han er ægte<br>
-  Er ægte<br>
-  Er ægte<br>
-  Ægte som en Fremmer<br>
+  Vi elsker kun Camili<br>
+  Camili<br>
+  Camili<br>
+  For han er ægte Fremmer<br>
   En Fremmer<br>
-  En Fremmer<br><br>
-  Og Fremmerne er ægte<br>
+  En Fremmer<br>
+  Og fremmerne er ægte<br>
   Er ægte<br>
   Er ægte<br>
   Ægte som Camili<br>
   Camili<br>
-  Camili</p>
+  Camili<br>
+  Åhåh åhåh åhåhhhhh</p>
 </details>
